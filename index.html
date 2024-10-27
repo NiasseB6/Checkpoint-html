@@ -3,38 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="barra.JPG">
     <title>Mon site</title>
-    
   </head>
   <body>
     <!--ceci est un en tête-->
     <header>
       <h2>BIENVENUE</h2>
-      <nav>
-        <ul>
-          <li>
-            <a href="accueil.html">ACCUEIL</a>
-          </li>
-          <li>
-            <a href="à propos.html">A PROPOS</a>
-          </li>
-          <li>
-            <a href="travail.html">TRAVAIL</a>
-          </li>
-          <li>
-            <a href="CV">CV</a>
-          </li>
-          <li>
-            <a href="contact">CONTACT</a>
-          </li>
-        </ul>
-      </nav>
+      
+        <nav>
+          <ul>
+            <li>
+              <a href="accueil.html">ACCUEIL</a>
+            </li>
+            <li>
+              <a href="à propos.html">A PROPOS</a>
+            </li>
+            <li>
+              <a href="travail.html">TRAVAIL</a>
+            </li>
+            <li>
+              <a href="CV">CV</a>
+            </li>
+            <li>
+              <a href="contact">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+    
     </header>
-    <img src="barra.JPG" alt="Sac en papier" width="100px" >
+    <img src="barra.JPG" alt="Sac en papier" width="100px" />
     <!--ceci est un formulaire-->
     <h2>formulaire</h2>
-    <div>
-      <form>
+    <div class="form">
+      <form class="form2">
         <label for="about">ABOUT</label>
         <input type="text" name="about" />
         <br />
@@ -51,11 +54,12 @@
         <input type="number" name="number" />
         <br />
         <br />
-        <button>submit</button>
+        <button class="submit">submit</button>
       </form>
     </div>
+    <br> <br><br><br>
     <!--liste ordonnées-->
-    <div>
+    <div class="div-1">
       <h2>listes ordonnées</h2>
       <h3>les fondamentaux du developpement web:</h3>
       <ol>
@@ -73,7 +77,7 @@
         <li>une connexion internet</li>
       </ul>
     </div>
-    <div>
+    <div class="tableau">
       <!--tableau-->
       <h2>tableau</h2>
       <table border="1">
@@ -100,8 +104,9 @@
       </table>
     </div>
 
-    <h2>Fomulaires</h2>
-    <div>
+    
+    <div class="formulaire">
+      <h2>Fomulaires</h2>
       <form>
         <label for="Noms">NOM</label>
         <input type="text" id="name" />

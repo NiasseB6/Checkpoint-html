@@ -1,0 +1,117 @@
+
+header{
+  display: flex;
+  justify-content: space-around;
+  nav{
+    ul{
+      display: flex;
+      gap: 20px;
+      li{
+        list-style: none;
+        a{
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+  }
+}
+.form{
+ border-style: groove;
+ background-color: antiquewhite;
+ margin-left: 500px;
+ margin-right: 500px;
+ padding-left: 20px;
+ padding-top: 20px;
+ padding-right: 20px;
+ padding-bottom: 20px;
+ width: 300px;
+ height: 140px;
+ display: block;
+ float: none;
+} 
+.form2 input{
+  float: right;
+} 
+
+
+a:hover{
+  color: yellow;
+}
+a:active{
+  color: green;
+}
+a:visited{
+  color: rgb(11, 5, 5);
+}
+button:hover{
+  color: brown;
+}
+button:active{
+  color: blue;
+}
+.submit{
+  margin-top: 10px;
+  text-align: center;
+  align-items: center;
+  margin: 20px;
+  border-bottom: 30pxpx;
+  border-radius: 20px;
+  background-color: aliceblue;
+}
+.div-1{
+  text-align: center;
+  background-color: aqua;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  margin-left: 1000px;
+  margin-right: 5px;
+  display: block;
+  border-left: 500px;
+  border-right: 500px;
+  width: 300px;
+  height: 100;
+  border-radius: 20px;
+  float: right;
+}
+.tableau{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+  width: 200px;
+  height: 100px; 
+  float: right;
+}
+.formulaire form{
+  border-style: none;
+  margin-left: 500px;
+  margin-right: 5000px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 300px;
+  height: 160px;
+  background-color: aqua;
+  text-align: justify;
+  border-radius: 10px;
+}
+.formulaire form input{
+float: right;
+}
+.tableau table tr th{
+  background-color: antiquewhite;
+  font-size: 20px;
+}
+.tableau table tr td{
+  background-color: aquamarine;
+  font-size: 17px;
+}
